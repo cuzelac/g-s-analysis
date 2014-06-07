@@ -206,7 +206,6 @@ mikado:
   - '221'
 - - finale
   - '222'
----
 patience:
 - - song
   - '10'
@@ -288,3 +287,82 @@ patience:
   - '187'
 - - finale
   - '188'
+pirates:
+- - song
+  - '13'
+- - dialog
+  - '18'
+- - song
+  - '18'
+- - dialog
+  - '20'
+- - song
+  - '22'
+- - dialog
+  - '26'
+- - song
+  - '26'
+- - song
+  - '34'
+- - dialog
+  - '42'
+- - recit
+  - '43'
+- - song
+  - '45'
+- - song
+  - '51'
+- - song
+  - '57'
+- - song
+  - '59'
+- - recit
+  - '67'
+- - song
+  - '68'
+- - recit
+  - '72'
+- - song
+  - '72'
+- - song
+  - '74'
+- - dialog
+  - '83'
+- - finale
+  - '84'
+- - song
+  - '114'
+- - dialog
+  - '118'
+- - recit
+  - '119'
+- - song
+  - '119'
+- - recit
+  - '138'
+- - song
+  - '141'
+- - dialog
+  - '149'
+- - song
+  - '150'
+- - recit
+  - '157'
+- - song
+  - '159'
+- - recit
+  - '168'
+- - song
+  - '168'
+- - recit
+  - '172'
+- - song
+  - '173'
+- - song
+  - '177'
+- - song
+  - '180'
+- - recit
+  - '187'
+- - finale
+  - '189'
