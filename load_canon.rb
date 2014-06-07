@@ -6,8 +6,25 @@ require 'json'
 
 # stacked bar
 # categories: ["show_name1", "show_name2"]
-# series: [{name: 'type 1', data: [s1t1, s2t2]},
+# series: [{name: 'type 1', data: [s1t1, s2t1]},
 #          {name: 'type 2', data: [s1t2, s2t2]}]
+
+def build_stacked_bar(canon)
+  shows = canon.collect {|show| show[:name]}
+
+  # we'll store
+  # h[type] = [
+  collection = {}
+
+  # initialize the collection hash
+  canon.each do |show|
+    show[:scenes].each {|scene| collection[scene[:type]] = []}
+  end
+
+  canon.each do |show|
+
+  end
+end
 
 # scene_record
 #   start_page: num
@@ -18,7 +35,7 @@ require 'json'
 #   name: name
 #   scenes: [scene_record1, scene_record2]
 
-canon = YAML.load(File.read("./g-s-breakdown.yaml"))
+CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
 
 binding.pry
 
