@@ -22,7 +22,15 @@ def build_stacked_bar(canon)
   end
 
   canon.each do |show|
-
+    scenes = show[:scenes]
+    # count the occurances of each type
+    collection.keys.each do |type|
+      count = 0
+      scenes.each do |scene|
+        # IMPLEMENT ME
+      end
+      collection[type] << count
+    end
   end
 end
 
