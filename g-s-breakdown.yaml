@@ -1,875 +1,1504 @@
 ---
-gondoliers:
-- ["song", 10]
-- ["song", 67]
-- ["dialog", 74]
-- ["song", 76]
-- ["song", 80]
-- ["dialog", 84]
-- ["song", 86]
-- ["dialog", 90]
-- ["song", 91]
-- ["dialog", 95]
-- ["song", 95]
-- ["recit", 96]
-- ["song", 98]
-- ["song", 107]
-- ["dialog", 117]
-- ["finale", 119]
-- ["song", 161]
-- ["dialog", 168]
-- ["song", 169]
-- ["dialog", 175]
-- ["song", 176]
-- ["song", 180]
-- ["dialog", 194]
-- ["song", 195]
-- ["dialog", 203]
-- ["song", 204]
-- ["dialog", 213]
-- ["song", 214]
-- ["song", 226]
-- ["dialog", 231]
-- ["song", 232]
-- ["dialog", 235]
-- ["song", 236]
-- ["dialog", 243]
-- ["song", 244]
-- ["dialog", 251]
-- ["finale", 252]
-- ["end", 277]
-pinafore:
-- ["song", 7]
-- ["song", 12]
-- ["dialog", 15]
-- ["recit", 15]
-- ["song", 16]
-- ["song", 19]
-- ["dialog", 22]
-- ["recit", 22]
-- ["song", 24]
-- ["recit", 28]
-- ["song", 30]
-- ["dialog", 33]
-- ["song", 33]
-- ["song", 35]
-- ["song", 42]
-- ["song", 46]
-- ["dialog", 54]
-- ["song", 55]
-- ["dialog", 56]
-- ["song", 57]
-- ["dialog", 61]
-- ["song", 62]
-- ["finale", 66]
-- ["song", 98]
-- ["dialog", 101]
-- ["song", 101]
-- ["dialog", 108]
-- ["song", 108]
-- ["dialog", 114]
-- ["song", 115]
-- ["dialog", 120]
-- ["song", 120]
-- ["dialog", 127]
-- ["song", 127]
-- ["dialog", 146]
-- ["song", 146]
-- ["song", 152]
-- ["dialog", 157]
-- ["finale", 158]
-- ["end", 167]
-iolanthe:
-- ["song", 12]
-- ["dialog", 21]
-- ["song", 22]
-- ["dialog", 28]
-- ["song", 29]
-- ["dialog", 31]
-- ["song", 32]
-- ["song", 35]
-- ["dialog", 37]
-- ["song", 37]
-- ["song", 41]
-- ["song", 55]
-- ["dialog", 62]
-- ["song", 62]
-- ["recit", 72]
-- ["song", 73]
-- ["recit", 77]
-- ["song", 79]
-- ["dialog", 84]
-- ["song", 85]
-- ["dialog", 88]
-- ["finale", 89]
-- ["song", 144]
-- ["song", 147]
-- ["dialog", 152]
-- ["song", 153]
-- ["song", 155]
-- ["dialog", 157]
-- ["song", 158]
-- ["dialog", 160]
-- ["song", 162]
-- ["song", 166]
-- ["dialog", 180]
-- ["song", 181]
-- ["dialog", 188]
-- ["song", 189]
-- ["dialog", 194]
-- ["song", 195]
-- ["recit", 198]
-- ["dialog", 202]
-- ["finale", 203]
-- ["end", 208]
-mikado:
-- - song
-  - '14'
-- - song
-  - '23'
-- - dialog
-  - '31'
-- - song
-  - '32'
-- - dialog
-  - '41'
-- - song
-  - '42'
-- - recit
-  - '48'
-- - song
-  - '49'
-- - dialog
-  - '55'
-- - song
-  - '56'
-- - dialog
-  - '62'
-- - song
-  - '63'
-- - song
-  - '69'
-- - dialog
-  - '76'
-- - song
-  - '77'
-- - dialog
-  - '87'
-- - song
-  - '88'
-- - dialog
-  - '92'
-- - song
-  - '93'
-- - dialog
-  - '103'
-- - finale
-  - '104'
-- - song
-  - '140'
-- - song
-  - '144'
-- - dialog
-  - '150'
-- - song
-  - '151'
-- - dialog
-  - '157'
-- - song
-  - '158'
-- - dialog
-  - '163'
-- - song
-  - '165'
-- - song
-  - '172'
-- - dialog
-  - '179'
-- - song
-  - '180'
-- - dialog
-  - '188'
-- - song
-  - '190'
-- - dialog
-  - '197'
-- - song
-  - '198'
-- - song
-  - '204'
-- - dialog
-  - '207'
-- - song
-  - '208'
-- - dialog
-  - '212'
-- - song
-  - '213'
-- - dialog
-  - '221'
-- - finale
-  - '222'
-- ["end", 231]
-patience:
-- - song
-  - '10'
-- - dialog
-  - '16'
-- - recit
-  - '17'
-- - song
-  - '19'
-- - dialog
-  - '22'
-- - song
-  - '23'
-- - song
-  - '24'
-- - dialog
-  - '33'
-- - song
-  - '34'
-- - dialog
-  - '46'
-- - song
-  - '48'
-- - song
-  - '49'
-- - recit
-  - '52'
-- - song
-  - '55'
-- - dialog
-  - '59'
-- - song
-  - '61'
-- - song
-  - '65'
-- - dialog
-  - '68'
-- - song
-  - '70'
-- - finale
-  - '71'
-- - song
-  - '128'
-- - dialog
-  - '129'
-- - recit
-  - '130'
-- - song
-  - '131'
-- - song
-  - '134'
-- - dialog
-  - '136'
-- - song
-  - '138'
-- - dialog
-  - '144'
-- - song
-  - '146'
-- - dialog
-  - '148'
-- - song
-  - '149'
-- - song
-  - '158'
-- - dialog
-  - '163'
-- - song
-  - '164'
-- - dialog
-  - '174'
-- - song
-  - '176'
-- - dialog
-  - '184'
-- - song
-  - '185'
-- - dialog
-  - '187'
-- - finale
-  - '188'
-- ["end", 193]
-pirates:
-- - song
-  - '13'
-- - dialog
-  - '18'
-- - song
-  - '18'
-- - dialog
-  - '20'
-- - song
-  - '22'
-- - dialog
-  - '26'
-- - song
-  - '26'
-- - song
-  - '34'
-- - dialog
-  - '42'
-- - recit
-  - '43'
-- - song
-  - '45'
-- - song
-  - '51'
-- - song
-  - '57'
-- - song
-  - '59'
-- - recit
-  - '67'
-- - song
-  - '68'
-- - recit
-  - '72'
-- - song
-  - '72'
-- - song
-  - '74'
-- - dialog
-  - '83'
-- - finale
-  - '84'
-- - song
-  - '114'
-- - dialog
-  - '118'
-- - recit
-  - '119'
-- - song
-  - '119'
-- - recit
-  - '138'
-- - song
-  - '141'
-- - dialog
-  - '149'
-- - song
-  - '150'
-- - recit
-  - '157'
-- - song
-  - '159'
-- - recit
-  - '168'
-- - song
-  - '168'
-- - recit
-  - '172'
-- - song
-  - '173'
-- - song
-  - '177'
-- - song
-  - '180'
-- - recit
-  - '187'
-- - finale
-  - '189'
-- ["end", 213]
-princess-ida:
-- - song
-  - '6'
-- - dialog
-  - '14'
-- - song
-  - '15'
-- - recit
-  - '22'
-- - song
-  - '23'
-- - dialog
-  - '26'
-- - song
-  - '27'
-- - song
-  - '29'
-- - song
-  - '37'
-- - dialog
-  - '43'
-- - finale
-  - '46'
-- - song
-  - '68'
-- - dialog
-  - '76'
-- - song
-  - '76'
-- - recit
-  - '79'
-- - song
-  - '79'
-- - dialog
-  - '82'
-- - song
-  - '83'
-- - song
-  - '85'
-- - dialog
-  - '97'
-- - song
-  - '98'
-- - dialog
-  - '108'
-- - song
-  - '110'
-- - dialog
-  - '115'
-- - song
-  - '117'
-- - dialog
-  - '124'
-- - song
-  - '125'
-- - dialog
-  - '135'
-- - song
-  - '136'
-- - dialog
-  - '142'
-- - song
-  - '143'
-- - dialog
-  - '148'
-- - song
-  - '150'
-- - dialog
-  - '155'
-- - finale
-  - '156'
-- - song
-  - '191'
-- - dialog
-  - '198'
-- - song
-  - '200'
-- - dialog
-  - '205'
-- - song
-  - '207'
-- - dialog
-  - '214'
-- - song
-  - '214'
-- - song
-  - '220'
-- - dialog
-  - '226'
-- - song
-  - '226'
-- - dialog
-  - '231'
-- - finale
-  - '233'
-- ["end", 237]
-ruddigore:
-- - song
-  - '15'
-- - dialog
-  - '22'
-- - song
-  - '23'
-- - dialog
-  - '29'
-- - song
-  - '30'
-- - dialog
-  - '33'
-- - song
-  - '34'
-- - dialog
-  - '39'
-- - song
-  - '40'
-- - dance
-  - '45'
-- - dialog
-  - '46'
-- - song
-  - '47'
-- - dialog
-  - '50'
-- - song
-  - '51'
-- - song
-  - '55'
-- - dialog
-  - '57'
-- - song
-  - '59'
-- - song
-  - '66'
-- - dialog
-  - '72'
-- - song
-  - '73'
-- - song
-  - '80'
-- - dialog
-  - '87'
-- - song
-  - '88'
-- - finale
-  - '92'
-- - song
-  - '137'
-- - dialog
-  - '141'
-- - song
-  - '142'
-- - dialog
-  - '149'
-- - song
-  - '150'
-- - dialog
-  - '153'
-- - song
-  - '154'
-- - song
-  - '161'
-- - dialog
-  - '171'
-- - song
-  - '173'
-- - dialog
-  - '178'
-- - recit
-  - '179'
-- - song
-  - '180'
-- - song
-  - '183'
-- - dialog
-  - '188'
-- - song
-  - '190'
-- - dialog
-  - '202'
-- - melodrama
-  - '203'
-- - dialog
-  - '204'
-- - song
-  - '206'
-- - dialog
-  - '208'
-- - finale
-  - '209'
-- - end
-  - '220'
-sorcerer:
-- - song
-  - '9'
-- - recit
-  - '15'
-- - song
-  - '18'
-- - dialog
-  - '20'
-- - recit
-  - '20'
-- - song
-  - '22'
-- - dialog
-  - '26'
-- - recit
-  - '26'
-- - dialog
-  - '28'
-- - song
-  - '29'
-- - recit
-  - '33'
-- - song
-  - '34'
-- - recit
-  - '37'
-- - song
-  - '38'
-- - recit
-  - '40'
-- - song
-  - '40'
-- - song
-  - '50'
-- - dialog
-  - '56'
-- - blank
-  - '57'
-- - song
-  - '58'
-- - dialog
-  - '60'
-- - song
-  - '61'
-- - dialog
-  - '69'
-- - song
-  - '70'
-- - finale
-  - '82'
-- - song
-  - '112'
-- - song
-  - '126'
-- - dialog
-  - '140'
-- - song
-  - '141'
-- - dialog
-  - '144'
-- - song
-  - '145'
-- - song
-  - '155'
-- - recit
-  - '165'
-- - song
-  - '167'
-- - song
-  - '169'
-- - recit
-  - '182'
-- - dialog
-  - '183'
-- - finale
-  - '183'
-- - end
-  - '195'
-trial-by-jury:
-- - song
-  - '1'
-- - recit
-  - '12'
-- - song
-  - '13'
-- - song
-  - '15'
-- - song
-  - '21'
-- - song
-  - '27'
-- - recit
-  - '33'
-- - song
-  - '33'
-- - recit
-  - '35'
-- - song
-  - '36'
-- - song
-  - '42'
-- - recit
-  - '45'
-- - song
-  - '46'
-- - song
-  - '51'
-- - song
-  - '54'
-- - recit
-  - '57'
-- - song
-  - '58'
-- - song
-  - '59'
-- - song
-  - '70'
-- - finale
-  - '79'
-- - end
-  - '89'
-utopia-ltd:
-- - song
-  - '1'
-- - dialog
-  - '4'
-- - song
-  - '6'
-- - song
-  - '8'
-- - dialog
-  - '13'
-- - song
-  - '15'
-- - song
-  - '18'
-- - song
-  - '21'
-- - song
-  - '25'
-- - song
-  - '29'
-- - dialog
-  - '34'
-- - song
-  - '36'
-- - dialog
-  - '40'
-- - song
-  - '42'
-- - song
-  - '46'
-- - dialog
-  - '53'
-- - song
-  - '55'
-- - dialog
-  - '60'
-- - song
-  - '62'
-- - song
-  - '68'
-- - dialog
-  - '72'
-- - finale
-  - '74'
-- - recit
-  - '111'
-- - song
-  - '112'
-- - dialog
-  - '114'
-- - song
-  - '116'
-- - dialog
-  - '118'
-- - song
-  - '119'
-- - dialog
-  - '123'
-- - song
-  - '124'
-- - dialog
-  - '126'
-- - song
-  - '126'
-- - recit
-  - '109'
-- - song
-  - '109'
-- - song
-  - '139'
-- - dialog
-  - '119'
-- - song
-  - '143'
-- - dialog
-  - '147'
-- - song
-  - '148'
-- - dialog
-  - '155'
-- - song
-  - '157'
-- - song
-  - '161'
-- - recit
-  - '168'
-- - song
-  - '168'
-- - recit
-  - '170'
-- - song
-  - '172'
-- - song
-  - '175'
-- - dialog
-  - '177'
-- - finale
-  - '179'
-- - end
-  - '155'
-yeoman:
-- - song
-  - '12'
-- - dialog
-  - '16'
-- - song
-  - '17'
-- - dialog
-  - '28'
-- - song
-  - '29'
-- - dialog
-  - '34'
-- - song
-  - '35'
-- - dialog
-  - '42'
-- - song
-  - '43'
-- - dialog
-  - '47'
-- - song
-  - '48'
-- - dialog
-  - '52'
-- - song
-  - '53'
-- - dialog
-  - '66'
-- - song
-  - '67'
-- - dialog
-  - '77'
-- - song
-  - '78'
-- - dialog
-  - '82'
-- - recit
-  - '83'
-- - song
-  - '84'
-- - dialog
-  - '89'
-- - song
-  - '90'
-- - dialog
-  - '95'
-- - finale
-  - '96'
-- - song
-  - '140'
-- - dialog
-  - '149'
-- - song
-  - '150'
-- - dialog
-  - '153'
-- - song
-  - '154'
-- - dialog
-  - '158'
-- - song
-  - '159'
-- - dialog
-  - '162'
-- - song
-  - '163'
-- - dialog
-  - '167'
-- - song
-  - '169'
-- - dialog
-  - '186'
-- - song
-  - '187'
-- - dialog
-  - '195'
-- - song
-  - '196'
-- - dialog
-  - '204'
-- - song
-  - '207'
-- - finale
-  - '215'
-- - end
-  - '238'
+- :name: gondoliers
+  :scenes:
+  - :type: song
+    :start_page: 10
+    :length: 57
+  - :type: song
+    :start_page: 67
+    :length: 7
+  - :type: dialog
+    :start_page: 74
+    :length: 2
+  - :type: song
+    :start_page: 76
+    :length: 4
+  - :type: song
+    :start_page: 80
+    :length: 4
+  - :type: dialog
+    :start_page: 84
+    :length: 2
+  - :type: song
+    :start_page: 86
+    :length: 4
+  - :type: dialog
+    :start_page: 90
+    :length: 1
+  - :type: song
+    :start_page: 91
+    :length: 4
+  - :type: dialog
+    :start_page: 95
+    :length: 1
+  - :type: song
+    :start_page: 95
+    :length: 1
+  - :type: recit
+    :start_page: 96
+    :length: 2
+  - :type: song
+    :start_page: 98
+    :length: 9
+  - :type: song
+    :start_page: 107
+    :length: 10
+  - :type: dialog
+    :start_page: 117
+    :length: 2
+  - :type: finale
+    :start_page: 119
+    :length: 42
+  - :type: song
+    :start_page: 161
+    :length: 7
+  - :type: dialog
+    :start_page: 168
+    :length: 1
+  - :type: song
+    :start_page: 169
+    :length: 6
+  - :type: dialog
+    :start_page: 175
+    :length: 1
+  - :type: song
+    :start_page: 176
+    :length: 4
+  - :type: song
+    :start_page: 180
+    :length: 14
+  - :type: dialog
+    :start_page: 194
+    :length: 1
+  - :type: song
+    :start_page: 195
+    :length: 8
+  - :type: dialog
+    :start_page: 203
+    :length: 1
+  - :type: song
+    :start_page: 204
+    :length: 9
+  - :type: dialog
+    :start_page: 213
+    :length: 1
+  - :type: song
+    :start_page: 214
+    :length: 12
+  - :type: song
+    :start_page: 226
+    :length: 5
+  - :type: dialog
+    :start_page: 231
+    :length: 1
+  - :type: song
+    :start_page: 232
+    :length: 3
+  - :type: dialog
+    :start_page: 235
+    :length: 1
+  - :type: song
+    :start_page: 236
+    :length: 7
+  - :type: dialog
+    :start_page: 243
+    :length: 1
+  - :type: song
+    :start_page: 244
+    :length: 7
+  - :type: dialog
+    :start_page: 251
+    :length: 1
+  - :type: finale
+    :start_page: 252
+    :length: 25
+  - :type: end
+    :start_page: 277
+    :length: 1
+- :name: pinafore
+  :scenes:
+  - :type: song
+    :start_page: 7
+    :length: 5
+  - :type: song
+    :start_page: 12
+    :length: 3
+  - :type: dialog
+    :start_page: 15
+    :length: 1
+  - :type: recit
+    :start_page: 15
+    :length: 1
+  - :type: song
+    :start_page: 16
+    :length: 3
+  - :type: song
+    :start_page: 19
+    :length: 3
+  - :type: dialog
+    :start_page: 22
+    :length: 1
+  - :type: recit
+    :start_page: 22
+    :length: 2
+  - :type: song
+    :start_page: 24
+    :length: 4
+  - :type: recit
+    :start_page: 28
+    :length: 2
+  - :type: song
+    :start_page: 30
+    :length: 3
+  - :type: dialog
+    :start_page: 33
+    :length: 1
+  - :type: song
+    :start_page: 33
+    :length: 2
+  - :type: song
+    :start_page: 35
+    :length: 7
+  - :type: song
+    :start_page: 42
+    :length: 4
+  - :type: song
+    :start_page: 46
+    :length: 8
+  - :type: dialog
+    :start_page: 54
+    :length: 1
+  - :type: song
+    :start_page: 55
+    :length: 1
+  - :type: dialog
+    :start_page: 56
+    :length: 1
+  - :type: song
+    :start_page: 57
+    :length: 4
+  - :type: dialog
+    :start_page: 61
+    :length: 1
+  - :type: song
+    :start_page: 62
+    :length: 4
+  - :type: finale
+    :start_page: 66
+    :length: 32
+  - :type: song
+    :start_page: 98
+    :length: 3
+  - :type: dialog
+    :start_page: 101
+    :length: 1
+  - :type: song
+    :start_page: 101
+    :length: 7
+  - :type: dialog
+    :start_page: 108
+    :length: 1
+  - :type: song
+    :start_page: 108
+    :length: 6
+  - :type: dialog
+    :start_page: 114
+    :length: 1
+  - :type: song
+    :start_page: 115
+    :length: 5
+  - :type: dialog
+    :start_page: 120
+    :length: 1
+  - :type: song
+    :start_page: 120
+    :length: 7
+  - :type: dialog
+    :start_page: 127
+    :length: 1
+  - :type: song
+    :start_page: 127
+    :length: 19
+  - :type: dialog
+    :start_page: 146
+    :length: 1
+  - :type: song
+    :start_page: 146
+    :length: 6
+  - :type: song
+    :start_page: 152
+    :length: 5
+  - :type: dialog
+    :start_page: 157
+    :length: 1
+  - :type: finale
+    :start_page: 158
+    :length: 9
+  - :type: end
+    :start_page: 167
+    :length: 1
+- :name: iolanthe
+  :scenes:
+  - :type: song
+    :start_page: 12
+    :length: 9
+  - :type: dialog
+    :start_page: 21
+    :length: 1
+  - :type: song
+    :start_page: 22
+    :length: 6
+  - :type: dialog
+    :start_page: 28
+    :length: 1
+  - :type: song
+    :start_page: 29
+    :length: 2
+  - :type: dialog
+    :start_page: 31
+    :length: 1
+  - :type: song
+    :start_page: 32
+    :length: 3
+  - :type: song
+    :start_page: 35
+    :length: 2
+  - :type: dialog
+    :start_page: 37
+    :length: 1
+  - :type: song
+    :start_page: 37
+    :length: 4
+  - :type: song
+    :start_page: 41
+    :length: 14
+  - :type: song
+    :start_page: 55
+    :length: 7
+  - :type: dialog
+    :start_page: 62
+    :length: 1
+  - :type: song
+    :start_page: 62
+    :length: 10
+  - :type: recit
+    :start_page: 72
+    :length: 1
+  - :type: song
+    :start_page: 73
+    :length: 4
+  - :type: recit
+    :start_page: 77
+    :length: 2
+  - :type: song
+    :start_page: 79
+    :length: 5
+  - :type: dialog
+    :start_page: 84
+    :length: 1
+  - :type: song
+    :start_page: 85
+    :length: 3
+  - :type: dialog
+    :start_page: 88
+    :length: 1
+  - :type: finale
+    :start_page: 89
+    :length: 55
+  - :type: song
+    :start_page: 144
+    :length: 3
+  - :type: song
+    :start_page: 147
+    :length: 5
+  - :type: dialog
+    :start_page: 152
+    :length: 1
+  - :type: song
+    :start_page: 153
+    :length: 2
+  - :type: song
+    :start_page: 155
+    :length: 2
+  - :type: dialog
+    :start_page: 157
+    :length: 1
+  - :type: song
+    :start_page: 158
+    :length: 2
+  - :type: dialog
+    :start_page: 160
+    :length: 2
+  - :type: song
+    :start_page: 162
+    :length: 4
+  - :type: song
+    :start_page: 166
+    :length: 14
+  - :type: dialog
+    :start_page: 180
+    :length: 1
+  - :type: song
+    :start_page: 181
+    :length: 7
+  - :type: dialog
+    :start_page: 188
+    :length: 1
+  - :type: song
+    :start_page: 189
+    :length: 5
+  - :type: dialog
+    :start_page: 194
+    :length: 1
+  - :type: song
+    :start_page: 195
+    :length: 3
+  - :type: recit
+    :start_page: 198
+    :length: 4
+  - :type: dialog
+    :start_page: 202
+    :length: 1
+  - :type: finale
+    :start_page: 203
+    :length: 5
+  - :type: end
+    :start_page: 208
+    :length: 1
+- :name: mikado
+  :scenes:
+  - :type: song
+    :start_page: 14
+    :length: 9
+  - :type: song
+    :start_page: 23
+    :length: 8
+  - :type: dialog
+    :start_page: 31
+    :length: 1
+  - :type: song
+    :start_page: 32
+    :length: 9
+  - :type: dialog
+    :start_page: 41
+    :length: 1
+  - :type: song
+    :start_page: 42
+    :length: 6
+  - :type: recit
+    :start_page: 48
+    :length: 1
+  - :type: song
+    :start_page: 49
+    :length: 6
+  - :type: dialog
+    :start_page: 55
+    :length: 1
+  - :type: song
+    :start_page: 56
+    :length: 6
+  - :type: dialog
+    :start_page: 62
+    :length: 1
+  - :type: song
+    :start_page: 63
+    :length: 6
+  - :type: song
+    :start_page: 69
+    :length: 7
+  - :type: dialog
+    :start_page: 76
+    :length: 1
+  - :type: song
+    :start_page: 77
+    :length: 10
+  - :type: dialog
+    :start_page: 87
+    :length: 1
+  - :type: song
+    :start_page: 88
+    :length: 4
+  - :type: dialog
+    :start_page: 92
+    :length: 1
+  - :type: song
+    :start_page: 93
+    :length: 10
+  - :type: dialog
+    :start_page: 103
+    :length: 1
+  - :type: finale
+    :start_page: 104
+    :length: 36
+  - :type: song
+    :start_page: 140
+    :length: 4
+  - :type: song
+    :start_page: 144
+    :length: 6
+  - :type: dialog
+    :start_page: 150
+    :length: 1
+  - :type: song
+    :start_page: 151
+    :length: 6
+  - :type: dialog
+    :start_page: 157
+    :length: 1
+  - :type: song
+    :start_page: 158
+    :length: 5
+  - :type: dialog
+    :start_page: 163
+    :length: 2
+  - :type: song
+    :start_page: 165
+    :length: 7
+  - :type: song
+    :start_page: 172
+    :length: 7
+  - :type: dialog
+    :start_page: 179
+    :length: 1
+  - :type: song
+    :start_page: 180
+    :length: 8
+  - :type: dialog
+    :start_page: 188
+    :length: 2
+  - :type: song
+    :start_page: 190
+    :length: 7
+  - :type: dialog
+    :start_page: 197
+    :length: 1
+  - :type: song
+    :start_page: 198
+    :length: 6
+  - :type: song
+    :start_page: 204
+    :length: 3
+  - :type: dialog
+    :start_page: 207
+    :length: 1
+  - :type: song
+    :start_page: 208
+    :length: 4
+  - :type: dialog
+    :start_page: 212
+    :length: 1
+  - :type: song
+    :start_page: 213
+    :length: 8
+  - :type: dialog
+    :start_page: 221
+    :length: 1
+  - :type: finale
+    :start_page: 222
+    :length: 9
+  - :type: end
+    :start_page: 231
+    :length: 1
+- :name: patience
+  :scenes:
+  - :type: song
+    :start_page: 10
+    :length: 6
+  - :type: dialog
+    :start_page: 16
+    :length: 1
+  - :type: recit
+    :start_page: 17
+    :length: 2
+  - :type: song
+    :start_page: 19
+    :length: 3
+  - :type: dialog
+    :start_page: 22
+    :length: 1
+  - :type: song
+    :start_page: 23
+    :length: 1
+  - :type: song
+    :start_page: 24
+    :length: 9
+  - :type: dialog
+    :start_page: 33
+    :length: 1
+  - :type: song
+    :start_page: 34
+    :length: 12
+  - :type: dialog
+    :start_page: 46
+    :length: 2
+  - :type: song
+    :start_page: 48
+    :length: 1
+  - :type: song
+    :start_page: 49
+    :length: 3
+  - :type: recit
+    :start_page: 52
+    :length: 3
+  - :type: song
+    :start_page: 55
+    :length: 4
+  - :type: dialog
+    :start_page: 59
+    :length: 2
+  - :type: song
+    :start_page: 61
+    :length: 4
+  - :type: song
+    :start_page: 65
+    :length: 3
+  - :type: dialog
+    :start_page: 68
+    :length: 2
+  - :type: song
+    :start_page: 70
+    :length: 1
+  - :type: finale
+    :start_page: 71
+    :length: 57
+  - :type: song
+    :start_page: 128
+    :length: 1
+  - :type: dialog
+    :start_page: 129
+    :length: 1
+  - :type: recit
+    :start_page: 130
+    :length: 1
+  - :type: song
+    :start_page: 131
+    :length: 3
+  - :type: song
+    :start_page: 134
+    :length: 2
+  - :type: dialog
+    :start_page: 136
+    :length: 2
+  - :type: song
+    :start_page: 138
+    :length: 6
+  - :type: dialog
+    :start_page: 144
+    :length: 2
+  - :type: song
+    :start_page: 146
+    :length: 2
+  - :type: dialog
+    :start_page: 148
+    :length: 1
+  - :type: song
+    :start_page: 149
+    :length: 9
+  - :type: song
+    :start_page: 158
+    :length: 5
+  - :type: dialog
+    :start_page: 163
+    :length: 1
+  - :type: song
+    :start_page: 164
+    :length: 10
+  - :type: dialog
+    :start_page: 174
+    :length: 2
+  - :type: song
+    :start_page: 176
+    :length: 8
+  - :type: dialog
+    :start_page: 184
+    :length: 1
+  - :type: song
+    :start_page: 185
+    :length: 2
+  - :type: dialog
+    :start_page: 187
+    :length: 1
+  - :type: finale
+    :start_page: 188
+    :length: 5
+  - :type: end
+    :start_page: 193
+    :length: 1
+- :name: pirates
+  :scenes:
+  - :type: song
+    :start_page: 13
+    :length: 5
+  - :type: dialog
+    :start_page: 18
+    :length: 1
+  - :type: song
+    :start_page: 18
+    :length: 2
+  - :type: dialog
+    :start_page: 20
+    :length: 2
+  - :type: song
+    :start_page: 22
+    :length: 4
+  - :type: dialog
+    :start_page: 26
+    :length: 1
+  - :type: song
+    :start_page: 26
+    :length: 8
+  - :type: song
+    :start_page: 34
+    :length: 8
+  - :type: dialog
+    :start_page: 42
+    :length: 1
+  - :type: recit
+    :start_page: 43
+    :length: 2
+  - :type: song
+    :start_page: 45
+    :length: 6
+  - :type: song
+    :start_page: 51
+    :length: 6
+  - :type: song
+    :start_page: 57
+    :length: 2
+  - :type: song
+    :start_page: 59
+    :length: 8
+  - :type: recit
+    :start_page: 67
+    :length: 1
+  - :type: song
+    :start_page: 68
+    :length: 4
+  - :type: recit
+    :start_page: 72
+    :length: 1
+  - :type: song
+    :start_page: 72
+    :length: 2
+  - :type: song
+    :start_page: 74
+    :length: 9
+  - :type: dialog
+    :start_page: 83
+    :length: 1
+  - :type: finale
+    :start_page: 84
+    :length: 30
+  - :type: song
+    :start_page: 114
+    :length: 4
+  - :type: dialog
+    :start_page: 118
+    :length: 1
+  - :type: recit
+    :start_page: 119
+    :length: 1
+  - :type: song
+    :start_page: 119
+    :length: 19
+  - :type: recit
+    :start_page: 138
+    :length: 3
+  - :type: song
+    :start_page: 141
+    :length: 8
+  - :type: dialog
+    :start_page: 149
+    :length: 1
+  - :type: song
+    :start_page: 150
+    :length: 7
+  - :type: recit
+    :start_page: 157
+    :length: 2
+  - :type: song
+    :start_page: 159
+    :length: 9
+  - :type: recit
+    :start_page: 168
+    :length: 1
+  - :type: song
+    :start_page: 168
+    :length: 4
+  - :type: recit
+    :start_page: 172
+    :length: 1
+  - :type: song
+    :start_page: 173
+    :length: 4
+  - :type: song
+    :start_page: 177
+    :length: 3
+  - :type: song
+    :start_page: 180
+    :length: 7
+  - :type: recit
+    :start_page: 187
+    :length: 2
+  - :type: finale
+    :start_page: 189
+    :length: 24
+  - :type: end
+    :start_page: 213
+    :length: 1
+- :name: princess-ida
+  :scenes:
+  - :type: song
+    :start_page: 6
+    :length: 8
+  - :type: dialog
+    :start_page: 14
+    :length: 1
+  - :type: song
+    :start_page: 15
+    :length: 7
+  - :type: recit
+    :start_page: 22
+    :length: 1
+  - :type: song
+    :start_page: 23
+    :length: 3
+  - :type: dialog
+    :start_page: 26
+    :length: 1
+  - :type: song
+    :start_page: 27
+    :length: 2
+  - :type: song
+    :start_page: 29
+    :length: 8
+  - :type: song
+    :start_page: 37
+    :length: 6
+  - :type: dialog
+    :start_page: 43
+    :length: 3
+  - :type: finale
+    :start_page: 46
+    :length: 22
+  - :type: song
+    :start_page: 68
+    :length: 8
+  - :type: dialog
+    :start_page: 76
+    :length: 1
+  - :type: song
+    :start_page: 76
+    :length: 3
+  - :type: recit
+    :start_page: 79
+    :length: 1
+  - :type: song
+    :start_page: 79
+    :length: 3
+  - :type: dialog
+    :start_page: 82
+    :length: 1
+  - :type: song
+    :start_page: 83
+    :length: 2
+  - :type: song
+    :start_page: 85
+    :length: 12
+  - :type: dialog
+    :start_page: 97
+    :length: 1
+  - :type: song
+    :start_page: 98
+    :length: 10
+  - :type: dialog
+    :start_page: 108
+    :length: 2
+  - :type: song
+    :start_page: 110
+    :length: 5
+  - :type: dialog
+    :start_page: 115
+    :length: 2
+  - :type: song
+    :start_page: 117
+    :length: 7
+  - :type: dialog
+    :start_page: 124
+    :length: 1
+  - :type: song
+    :start_page: 125
+    :length: 10
+  - :type: dialog
+    :start_page: 135
+    :length: 1
+  - :type: song
+    :start_page: 136
+    :length: 6
+  - :type: dialog
+    :start_page: 142
+    :length: 1
+  - :type: song
+    :start_page: 143
+    :length: 5
+  - :type: dialog
+    :start_page: 148
+    :length: 2
+  - :type: song
+    :start_page: 150
+    :length: 5
+  - :type: dialog
+    :start_page: 155
+    :length: 1
+  - :type: finale
+    :start_page: 156
+    :length: 35
+  - :type: song
+    :start_page: 191
+    :length: 7
+  - :type: dialog
+    :start_page: 198
+    :length: 2
+  - :type: song
+    :start_page: 200
+    :length: 5
+  - :type: dialog
+    :start_page: 205
+    :length: 2
+  - :type: song
+    :start_page: 207
+    :length: 7
+  - :type: dialog
+    :start_page: 214
+    :length: 1
+  - :type: song
+    :start_page: 214
+    :length: 6
+  - :type: song
+    :start_page: 220
+    :length: 6
+  - :type: dialog
+    :start_page: 226
+    :length: 1
+  - :type: song
+    :start_page: 226
+    :length: 5
+  - :type: dialog
+    :start_page: 231
+    :length: 2
+  - :type: finale
+    :start_page: 233
+    :length: 4
+  - :type: end
+    :start_page: 237
+    :length: 1
+- :name: ruddigore
+  :scenes:
+  - :type: song
+    :start_page: 15
+    :length: 7
+  - :type: dialog
+    :start_page: 22
+    :length: 1
+  - :type: song
+    :start_page: 23
+    :length: 6
+  - :type: dialog
+    :start_page: 29
+    :length: 1
+  - :type: song
+    :start_page: 30
+    :length: 3
+  - :type: dialog
+    :start_page: 33
+    :length: 1
+  - :type: song
+    :start_page: 34
+    :length: 5
+  - :type: dialog
+    :start_page: 39
+    :length: 1
+  - :type: song
+    :start_page: 40
+    :length: 5
+  - :type: dance
+    :start_page: 45
+    :length: 1
+  - :type: dialog
+    :start_page: 46
+    :length: 1
+  - :type: song
+    :start_page: 47
+    :length: 3
+  - :type: dialog
+    :start_page: 50
+    :length: 1
+  - :type: song
+    :start_page: 51
+    :length: 4
+  - :type: song
+    :start_page: 55
+    :length: 2
+  - :type: dialog
+    :start_page: 57
+    :length: 2
+  - :type: song
+    :start_page: 59
+    :length: 7
+  - :type: song
+    :start_page: 66
+    :length: 6
+  - :type: dialog
+    :start_page: 72
+    :length: 1
+  - :type: song
+    :start_page: 73
+    :length: 7
+  - :type: song
+    :start_page: 80
+    :length: 7
+  - :type: dialog
+    :start_page: 87
+    :length: 1
+  - :type: song
+    :start_page: 88
+    :length: 4
+  - :type: finale
+    :start_page: 92
+    :length: 45
+  - :type: song
+    :start_page: 137
+    :length: 4
+  - :type: dialog
+    :start_page: 141
+    :length: 1
+  - :type: song
+    :start_page: 142
+    :length: 7
+  - :type: dialog
+    :start_page: 149
+    :length: 1
+  - :type: song
+    :start_page: 150
+    :length: 3
+  - :type: dialog
+    :start_page: 153
+    :length: 1
+  - :type: song
+    :start_page: 154
+    :length: 7
+  - :type: song
+    :start_page: 161
+    :length: 10
+  - :type: dialog
+    :start_page: 171
+    :length: 2
+  - :type: song
+    :start_page: 173
+    :length: 5
+  - :type: dialog
+    :start_page: 178
+    :length: 1
+  - :type: recit
+    :start_page: 179
+    :length: 1
+  - :type: song
+    :start_page: 180
+    :length: 3
+  - :type: song
+    :start_page: 183
+    :length: 5
+  - :type: dialog
+    :start_page: 188
+    :length: 2
+  - :type: song
+    :start_page: 190
+    :length: 12
+  - :type: dialog
+    :start_page: 202
+    :length: 1
+  - :type: melodrama
+    :start_page: 203
+    :length: 1
+  - :type: dialog
+    :start_page: 204
+    :length: 2
+  - :type: song
+    :start_page: 206
+    :length: 2
+  - :type: dialog
+    :start_page: 208
+    :length: 1
+  - :type: finale
+    :start_page: 209
+    :length: 11
+  - :type: end
+    :start_page: 220
+    :length: 1
+- :name: sorcerer
+  :scenes:
+  - :type: song
+    :start_page: 9
+    :length: 6
+  - :type: recit
+    :start_page: 15
+    :length: 3
+  - :type: song
+    :start_page: 18
+    :length: 2
+  - :type: dialog
+    :start_page: 20
+    :length: 1
+  - :type: recit
+    :start_page: 20
+    :length: 2
+  - :type: song
+    :start_page: 22
+    :length: 4
+  - :type: dialog
+    :start_page: 26
+    :length: 1
+  - :type: recit
+    :start_page: 26
+    :length: 2
+  - :type: dialog
+    :start_page: 28
+    :length: 1
+  - :type: song
+    :start_page: 29
+    :length: 4
+  - :type: recit
+    :start_page: 33
+    :length: 1
+  - :type: song
+    :start_page: 34
+    :length: 3
+  - :type: recit
+    :start_page: 37
+    :length: 1
+  - :type: song
+    :start_page: 38
+    :length: 2
+  - :type: recit
+    :start_page: 40
+    :length: 1
+  - :type: song
+    :start_page: 40
+    :length: 10
+  - :type: song
+    :start_page: 50
+    :length: 6
+  - :type: dialog
+    :start_page: 56
+    :length: 1
+  - :type: blank
+    :start_page: 57
+    :length: 1
+  - :type: song
+    :start_page: 58
+    :length: 2
+  - :type: dialog
+    :start_page: 60
+    :length: 1
+  - :type: song
+    :start_page: 61
+    :length: 8
+  - :type: dialog
+    :start_page: 69
+    :length: 1
+  - :type: song
+    :start_page: 70
+    :length: 12
+  - :type: finale
+    :start_page: 82
+    :length: 30
+  - :type: song
+    :start_page: 112
+    :length: 14
+  - :type: song
+    :start_page: 126
+    :length: 14
+  - :type: dialog
+    :start_page: 140
+    :length: 1
+  - :type: song
+    :start_page: 141
+    :length: 3
+  - :type: dialog
+    :start_page: 144
+    :length: 1
+  - :type: song
+    :start_page: 145
+    :length: 10
+  - :type: song
+    :start_page: 155
+    :length: 10
+  - :type: recit
+    :start_page: 165
+    :length: 2
+  - :type: song
+    :start_page: 167
+    :length: 2
+  - :type: song
+    :start_page: 169
+    :length: 13
+  - :type: recit
+    :start_page: 182
+    :length: 1
+  - :type: dialog
+    :start_page: 183
+    :length: 1
+  - :type: finale
+    :start_page: 183
+    :length: 12
+  - :type: end
+    :start_page: 195
+    :length: 1
+- :name: trial-by-jury
+  :scenes:
+  - :type: song
+    :start_page: 1
+    :length: 11
+  - :type: recit
+    :start_page: 12
+    :length: 1
+  - :type: song
+    :start_page: 13
+    :length: 2
+  - :type: song
+    :start_page: 15
+    :length: 6
+  - :type: song
+    :start_page: 21
+    :length: 6
+  - :type: song
+    :start_page: 27
+    :length: 6
+  - :type: recit
+    :start_page: 33
+    :length: 1
+  - :type: song
+    :start_page: 33
+    :length: 2
+  - :type: recit
+    :start_page: 35
+    :length: 1
+  - :type: song
+    :start_page: 36
+    :length: 6
+  - :type: song
+    :start_page: 42
+    :length: 3
+  - :type: recit
+    :start_page: 45
+    :length: 1
+  - :type: song
+    :start_page: 46
+    :length: 5
+  - :type: song
+    :start_page: 51
+    :length: 3
+  - :type: song
+    :start_page: 54
+    :length: 3
+  - :type: recit
+    :start_page: 57
+    :length: 1
+  - :type: song
+    :start_page: 58
+    :length: 1
+  - :type: song
+    :start_page: 59
+    :length: 11
+  - :type: song
+    :start_page: 70
+    :length: 9
+  - :type: finale
+    :start_page: 79
+    :length: 10
+  - :type: end
+    :start_page: 89
+    :length: 1
+- :name: utopia-ltd
+  :scenes:
+  - :type: song
+    :start_page: 1
+    :length: 3
+  - :type: dialog
+    :start_page: 4
+    :length: 2
+  - :type: song
+    :start_page: 6
+    :length: 2
+  - :type: song
+    :start_page: 8
+    :length: 5
+  - :type: dialog
+    :start_page: 13
+    :length: 2
+  - :type: song
+    :start_page: 15
+    :length: 3
+  - :type: song
+    :start_page: 18
+    :length: 3
+  - :type: song
+    :start_page: 21
+    :length: 4
+  - :type: song
+    :start_page: 25
+    :length: 4
+  - :type: song
+    :start_page: 29
+    :length: 5
+  - :type: dialog
+    :start_page: 34
+    :length: 2
+  - :type: song
+    :start_page: 36
+    :length: 4
+  - :type: dialog
+    :start_page: 40
+    :length: 2
+  - :type: song
+    :start_page: 42
+    :length: 4
+  - :type: song
+    :start_page: 46
+    :length: 7
+  - :type: dialog
+    :start_page: 53
+    :length: 2
+  - :type: song
+    :start_page: 55
+    :length: 5
+  - :type: dialog
+    :start_page: 60
+    :length: 2
+  - :type: song
+    :start_page: 62
+    :length: 6
+  - :type: song
+    :start_page: 68
+    :length: 4
+  - :type: dialog
+    :start_page: 72
+    :length: 2
+  - :type: finale
+    :start_page: 74
+    :length: 37
+  - :type: recit
+    :start_page: 111
+    :length: 1
+  - :type: song
+    :start_page: 112
+    :length: 2
+  - :type: dialog
+    :start_page: 114
+    :length: 2
+  - :type: song
+    :start_page: 116
+    :length: 2
+  - :type: dialog
+    :start_page: 118
+    :length: 1
+  - :type: song
+    :start_page: 119
+    :length: 4
+  - :type: dialog
+    :start_page: 123
+    :length: 1
+  - :type: song
+    :start_page: 124
+    :length: 2
+  - :type: dialog
+    :start_page: 126
+    :length: 1
+  - :type: song
+    :start_page: 126
+    :length: -17
+  - :type: recit
+    :start_page: 109
+    :length: 1
+  - :type: song
+    :start_page: 109
+    :length: 30
+  - :type: song
+    :start_page: 139
+    :length: -20
+  - :type: dialog
+    :start_page: 119
+    :length: 24
+  - :type: song
+    :start_page: 143
+    :length: 4
+  - :type: dialog
+    :start_page: 147
+    :length: 1
+  - :type: song
+    :start_page: 148
+    :length: 7
+  - :type: dialog
+    :start_page: 155
+    :length: 2
+  - :type: song
+    :start_page: 157
+    :length: 4
+  - :type: song
+    :start_page: 161
+    :length: 7
+  - :type: recit
+    :start_page: 168
+    :length: 1
+  - :type: song
+    :start_page: 168
+    :length: 2
+  - :type: recit
+    :start_page: 170
+    :length: 2
+  - :type: song
+    :start_page: 172
+    :length: 3
+  - :type: song
+    :start_page: 175
+    :length: 2
+  - :type: dialog
+    :start_page: 177
+    :length: 2
+  - :type: finale
+    :start_page: 179
+    :length: -24
+  - :type: end
+    :start_page: 155
+    :length: 1
+- :name: yeoman
+  :scenes:
+  - :type: song
+    :start_page: 12
+    :length: 4
+  - :type: dialog
+    :start_page: 16
+    :length: 1
+  - :type: song
+    :start_page: 17
+    :length: 11
+  - :type: dialog
+    :start_page: 28
+    :length: 1
+  - :type: song
+    :start_page: 29
+    :length: 5
+  - :type: dialog
+    :start_page: 34
+    :length: 1
+  - :type: song
+    :start_page: 35
+    :length: 7
+  - :type: dialog
+    :start_page: 42
+    :length: 1
+  - :type: song
+    :start_page: 43
+    :length: 4
+  - :type: dialog
+    :start_page: 47
+    :length: 1
+  - :type: song
+    :start_page: 48
+    :length: 4
+  - :type: dialog
+    :start_page: 52
+    :length: 1
+  - :type: song
+    :start_page: 53
+    :length: 13
+  - :type: dialog
+    :start_page: 66
+    :length: 1
+  - :type: song
+    :start_page: 67
+    :length: 10
+  - :type: dialog
+    :start_page: 77
+    :length: 1
+  - :type: song
+    :start_page: 78
+    :length: 4
+  - :type: dialog
+    :start_page: 82
+    :length: 1
+  - :type: recit
+    :start_page: 83
+    :length: 1
+  - :type: song
+    :start_page: 84
+    :length: 5
+  - :type: dialog
+    :start_page: 89
+    :length: 1
+  - :type: song
+    :start_page: 90
+    :length: 5
+  - :type: dialog
+    :start_page: 95
+    :length: 1
+  - :type: finale
+    :start_page: 96
+    :length: 44
+  - :type: song
+    :start_page: 140
+    :length: 9
+  - :type: dialog
+    :start_page: 149
+    :length: 1
+  - :type: song
+    :start_page: 150
+    :length: 3
+  - :type: dialog
+    :start_page: 153
+    :length: 1
+  - :type: song
+    :start_page: 154
+    :length: 4
+  - :type: dialog
+    :start_page: 158
+    :length: 1
+  - :type: song
+    :start_page: 159
+    :length: 3
+  - :type: dialog
+    :start_page: 162
+    :length: 1
+  - :type: song
+    :start_page: 163
+    :length: 4
+  - :type: dialog
+    :start_page: 167
+    :length: 2
+  - :type: song
+    :start_page: 169
+    :length: 17
+  - :type: dialog
+    :start_page: 186
+    :length: 1
+  - :type: song
+    :start_page: 187
+    :length: 8
+  - :type: dialog
+    :start_page: 195
+    :length: 1
+  - :type: song
+    :start_page: 196
+    :length: 8
+  - :type: dialog
+    :start_page: 204
+    :length: 3
+  - :type: song
+    :start_page: 207
+    :length: 8
+  - :type: finale
+    :start_page: 215
+    :length: 23
+  - :type: end
+    :start_page: 238
+    :length: 1
