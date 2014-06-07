@@ -37,6 +37,7 @@ gondoliers:
 - ["song", 244]
 - ["dialog", 251]
 - ["finale", 252]
+- ["end", 277]
 pinafore:
 - ["song", 7]
 - ["song", 12]
@@ -77,6 +78,7 @@ pinafore:
 - ["song", 152]
 - ["dialog", 157]
 - ["finale", 158]
+- ["end", 167]
 iolanthe:
 - ["song", 12]
 - ["dialog", 21]
@@ -119,6 +121,7 @@ iolanthe:
 - ["recit", 198]
 - ["dialog", 202]
 - ["finale", 203]
+- ["end", 208]
 mikado:
 - - song
   - '14'
@@ -206,6 +209,7 @@ mikado:
   - '221'
 - - finale
   - '222'
+- ["end", 231]
 patience:
 - - song
   - '10'
@@ -287,6 +291,7 @@ patience:
   - '187'
 - - finale
   - '188'
+- ["end", 193]
 pirates:
 - - song
   - '13'
@@ -366,6 +371,7 @@ pirates:
   - '187'
 - - finale
   - '189'
+- ["end", 213]
 princess-ida:
 - - song
   - '6'
@@ -461,7 +467,7 @@ princess-ida:
   - '231'
 - - finale
   - '233'
----
+- ["end", 237]
 ruddigore:
 - - song
   - '15'
@@ -557,7 +563,6 @@ ruddigore:
   - '209'
 - - end
   - '220'
----
 sorcerer:
 - - song
   - '9'
@@ -637,7 +642,6 @@ sorcerer:
   - '183'
 - - end
   - '195'
----
 trial-by-jury:
 - - song
   - '1'
@@ -681,7 +685,6 @@ trial-by-jury:
   - '79'
 - - end
   - '89'
----
 utopia-ltd:
 - - song
   - '1'
@@ -783,7 +786,6 @@ utopia-ltd:
   - '179'
 - - end
   - '155'
----
 yeoman:
 - - song
   - '12'
