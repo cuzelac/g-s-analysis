@@ -98,3 +98,41 @@ $(function () {
   });
 });
 </script>
+
+<HR>
+
+<div id="bar_pages_per_type" style="min-width: 310px; max-width: ; height: 600px; margin: 0 auto"></div>
+
+<script>
+$(function () {
+  $('#bar_pages_per_type').highcharts({
+    chart: {
+      type: 'bar'
+    },
+    title: {
+      text: '# pages of each type of scene'
+    },
+    xAxis: {
+      categories: ["gondoliers","pinafore","iolanthe","mikado","patience","pirates","princess-ida","ruddigore","sorcerer","trial-by-jury","utopia-ltd","yeoman"]
+    },
+    yAxis: {
+      min: 0,
+      //max: 275,
+      title: {
+        text: '# pages'
+      }
+    },
+    legend: {
+      reversed: false
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal' 
+      }
+    },
+    series: [{"name":"song","data":[182,109,116,152,95,129,146,124,125,74,91,136]},{"name":"dialog","data":[17,13,15,19,20,8,26,22,9,0,48,22]},{"name":"recit","data":[2,5,7,1,6,14,2,1,13,5,5,1]},{"name":"finale","data":[67,41,60,45,62,54,61,56,42,10,13,67]}]
+  });
+});
+
+
+</script>

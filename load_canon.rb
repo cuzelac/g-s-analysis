@@ -36,7 +36,10 @@ def build_stacked_bar(canon, restrict_types=true)
     collection.keys.each do |type|
       count = 0
       scenes.each do |scene|
-        count += 1 if scene[:type] == type
+        if type == scene[:type]
+          result = yield scene
+          count += result || 0
+        end
       end
       collection[type] << count
     end
@@ -49,9 +52,13 @@ def build_stacked_bar(canon, restrict_types=true)
     }
   end
 
-  puts "categories: #{JSON.generate(shows)}"
-  puts "series: #{JSON.generate(series)}"
+  print_json_cat_ser(shows, series)
   return shows, series
+end
+
+def print_json_cat_ser(categories, series)
+  puts "categories: #{JSON.generate(categories)}"
+  puts "series: #{JSON.generate(series)}"
 end
 
 # scene_record
@@ -66,7 +73,12 @@ end
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
 PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
 
-categories, series = build_stacked_bar(CANON)
+categories, series = build_stacked_bar(CANON) do |scene|
+  1
+end
+categories, series = build_stacked_bar(CANON) do |scene|
+  scene[:length].to_i
+end
 binding.pry
 
 # vim: ft=ruby
