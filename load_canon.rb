@@ -10,7 +10,7 @@ require 'json'
 #          {name: 'type 2', data: [s1t2, s2t2]}]
 
 def build_stacked_bar(canon, restrict_types=true)
-  shows = canon.collect {|show| show[:name]} #.sort_by {|n| PUBLICATION_ORDER.find_index(n)}
+  shows = canon.collect {|show| show[:name]}.sort_by {|n| PUBLICATION_ORDER.find_index(n)}
 
   # we'll store
   # h[type] = [num_types_in_show1, num_types_in_show2 ...]
@@ -30,7 +30,8 @@ def build_stacked_bar(canon, restrict_types=true)
     end
   end
 
-  canon.each do |show|
+  shows.each do |show_name|
+    show = canon.find {|s| s[:name] == show_name}
     scenes = show[:scenes]
     # count the occurances of each type
     collection.keys.each do |type|
