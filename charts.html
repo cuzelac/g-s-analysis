@@ -1,0 +1,100 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="scene_count_col" style="min-width: 310px; height: 800px; margin: 0 auto"></div>
+
+<script>
+$(function () {
+  $('#scene_count_col').highcharts({
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: '# scene types by show'
+    },
+    xAxis: {
+      categories: ["gondoliers","pinafore","iolanthe","mikado","patience","pirates","princess-ida","ruddigore","sorcerer","trial-by-jury","utopia-ltd","yeoman"]
+    },
+    yAxis: {
+      min: 0,
+      max: 50,
+      title: {
+        text: '# scenes'
+      },
+      stackLabels: {
+        enabled: true,
+        style: {
+          fontWeight: 'bold',
+          color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+        }
+      }
+    },
+    legend: {
+      align: 'center',
+      verticalAlign: 'bottom',
+      floating: false,
+      backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+      borderColor: '#CCC',
+      borderWidth: 1,
+      shadow: false
+    },
+    tooltip: {
+      formatter: function() {
+        return '<b>'+ this.x +'</b><br/>'+
+          this.series.name +': '+ this.y +'<br/>'+
+          'Total: '+ this.point.stackTotal;
+      }
+    },
+    plotOptions: {
+      column: {
+        stacking: 'normal',
+        dataLabels: {
+          enabled: true,
+          color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+          style: {
+            textShadow: '0 0 3px black, 0 0 3px black'
+          }
+        }
+      }
+    },
+    series: [{"name":"song","data":[20,21,22,23,21,21,24,23,18,14,28,20]},{"name":"dialog","data":[14,13,14,17,14,7,18,18,9,0,15,19]},{"name":"recit","data":[1,3,3,1,3,9,2,1,8,5,4,1]},{"name":"finale","data":[2,2,2,2,2,2,3,2,2,1,2,2]}]
+  });
+});
+</script>
+
+<HR>
+
+<div id="scene_count_bar" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+
+<script>
+$(function () {
+  $('#scene_count_bar').highcharts({
+    chart: {
+      type: 'bar'
+    },
+    title: {
+      text: '# scene types by show'
+    },
+    xAxis: {
+      categories: ["gondoliers","pinafore","iolanthe","mikado","patience","pirates","princess-ida","ruddigore","sorcerer","trial-by-jury","utopia-ltd","yeoman"]
+    },
+    yAxis: {
+      min: 0,
+      max: 50,
+      title: {
+        text: '# scenes'
+      }
+    },
+    legend: {
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal' 
+      }
+    },
+    series: [{"name":"song","data":[20,21,22,23,21,21,24,23,18,14,28,20]},{"name":"dialog","data":[14,13,14,17,14,7,18,18,9,0,15,19]},{"name":"recit","data":[1,3,3,1,3,9,2,1,8,5,4,1]},{"name":"finale","data":[2,2,2,2,2,2,3,2,2,1,2,2]}]
+  });
+});
+</script>
