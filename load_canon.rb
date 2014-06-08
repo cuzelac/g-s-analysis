@@ -49,6 +49,8 @@ def build_stacked_bar(canon, restrict_types=true)
     }
   end
 
+  puts "categories: #{JSON.generate(shows)}"
+  puts "series: #{JSON.generate(series)}"
   return shows, series
 end
 
