@@ -74,9 +74,13 @@ end
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
 PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
 
+puts "-----"
+puts "SCENE COUNTS"
 categories, series = build_stacked_bar(CANON) do |scene|
   1
 end
+puts "-----"
+puts "PAGE COUNTS"
 categories, series = build_stacked_bar(CANON) do |scene|
   scene[:length].to_i
 end
