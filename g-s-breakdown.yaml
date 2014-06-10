@@ -1316,19 +1316,19 @@
     :length: 1
   - :type: song
     :start_page: 126
-    :length: -17
+    :length: 4
   - :type: recit
-    :start_page: 109
+    :start_page: 130
     :length: 1
   - :type: song
-    :start_page: 109
-    :length: 30
+    :start_page: 130
+    :length: 11
   - :type: song
-    :start_page: 139
-    :length: -20
+    :start_page: 141
+    :length: 2
   - :type: dialog
-    :start_page: 119
-    :length: 24
+    :start_page: 143
+    :length: 1
   - :type: song
     :start_page: 143
     :length: 4
@@ -1367,9 +1367,9 @@
     :length: 2
   - :type: finale
     :start_page: 179
-    :length: -24
+    :length: 2
   - :type: end
-    :start_page: 155
+    :start_page: 181
     :length: 1
 - :name: yeoman
   :scenes:
