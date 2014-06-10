@@ -13,7 +13,9 @@ shows.each do |show|
   scenes = show[:scenes]
   show_name = show[:name]
 
-  STDOUT.print "#{show_name}:\t".black.on_white
+  STDOUT.print "#{show_name}:".black.on_white
+  STDOUT.print "\t"
+  STDOUT.print "\t" if ["mikado", "yeoman"].include?(show_name)
 
   scenes.each do |scene|
     type = scene[:type]
@@ -21,14 +23,14 @@ shows.each do |show|
 
     c = case type
         when "song"
-          " S ".black.on_blue
+          " S ".black.on_yellow
         when "finale"
-          " F ".black.on_cyan
+          " F ".white.on_black
           #""
         when "recit"
-          " R ".white.on_red
+          " R ".black.on_green
         when "dialog"
-          " D ".white.on_red
+          " D ".white.on_blue
         else
           ""
         end
