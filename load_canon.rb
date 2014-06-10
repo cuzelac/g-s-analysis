@@ -38,7 +38,7 @@ def build_stacked_bar(canon, restrict_types=true)
       count = 0
       scenes.each do |scene|
         if type == scene[:type]
-          result = yield scene
+          result = yield scene, type, show_name
           count += result || 0
         end
       end
@@ -62,6 +62,14 @@ def print_json_cat_ser(categories, series)
   puts "series: #{JSON.generate(series)}"
 end
 
+def divide_arrays(a1, a2)
+  a3 = []
+  a1.each_with_index do |v,i|
+    a3[i] = v.to_f / a2[i]
+  end
+  a3
+end
+
 # scene_record
 #   start_page: num
 #   length: num
@@ -76,14 +84,17 @@ PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patien
 
 puts "-----"
 puts "SCENE COUNTS"
-categories, series = build_stacked_bar(CANON) do |scene|
+categories, series_scene_count = build_stacked_bar(CANON) do |scene|
   1
 end
 puts "-----"
 puts "PAGE COUNTS"
-categories, series = build_stacked_bar(CANON) do |scene|
+categories, series_page = build_stacked_bar(CANON) do |scene|
   scene[:length].to_i
 end
+
+a1 = series_page.first["data"]
+a2 = series_scene_count.first["data"]
 binding.pry
 
 # vim: ft=ruby
