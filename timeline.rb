@@ -7,8 +7,17 @@ require 'pry'
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
 PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
 
-def timeline(print_acts=[1,2,3],print_shows=[])
+def timeline(print_acts=1..3,print_shows=[])
   shows = CANON.sort_by {|show| PUBLICATION_ORDER.find_index(show[:name])}
+
+  print_acts = case print_acts
+               when Range
+                 print_acts.to_a
+               when Numeric
+                 [print_acts]
+               else
+                 print_acts
+               end
 
   shows.each do |show|
     scenes = show[:scenes]
@@ -51,9 +60,9 @@ def timeline(print_acts=[1,2,3],print_shows=[])
   end
 end
 
-#puts "Full Shows"
-#timeline(1..3,ARGV)
+puts "Full Shows"
+timeline(1..3,ARGV)
 puts "Act 1"
-timeline([1],ARGV)
+timeline(1,ARGV)
 puts "Act 2 (+ 3)"
-timeline([2,3],ARGV)
+timeline(2..3,ARGV)
