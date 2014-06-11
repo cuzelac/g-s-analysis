@@ -7,35 +7,49 @@ require 'pry'
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
 PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
 
-shows = CANON.sort_by {|show| PUBLICATION_ORDER.find_index(show[:name])}
+def timeline(print_acts=[1,2,3])
+  shows = CANON.sort_by {|show| PUBLICATION_ORDER.find_index(show[:name])}
 
-shows.each do |show|
-  scenes = show[:scenes]
-  show_name = show[:name]
+  shows.each do |show|
+    scenes = show[:scenes]
+    show_name = show[:name]
 
-  STDOUT.print "#{show_name}:".black.on_white
-  STDOUT.print "\t"
-  STDOUT.print "\t" if ["mikado", "yeoman"].include?(show_name)
+    STDOUT.print " #{show_name}:".black.on_white
+    STDOUT.print "\t"
+#    STDOUT.print "\t" if ["mikado", "yeoman"].include?(show_name)
 
-  scenes.each do |scene|
-    type = scene[:type]
-    length = scene[:length]
+    act = 1
 
-    c = case type
-        when "song"
-          " S ".black.on_yellow
-        when "finale"
-          " F ".white.on_black
-          #""
-        when "recit"
-          " R ".black.on_green
-        when "dialog"
-          " D ".white.on_blue
-        else
-          ""
-        end
-    STDOUT.print c #* length
+    scenes.each do |scene|
+      type = scene[:type]
+      length = scene[:length]
+
+      c = case type
+          when "song"
+            " S ".black.on_yellow
+          when "finale"
+            " F ".white.on_black
+            #""
+          when "recit"
+            " R ".black.on_green
+          when "dialog"
+            " D ".white.on_blue
+          else
+            ""
+          end
+      if print_acts.include?(act)
+        STDOUT.print c #* length
+      end
+      act += 1 if type == "finale"
+    end
+    puts
+    puts
   end
-  puts
-  puts
 end
+
+puts "Full Shows"
+timeline()
+puts "Act 1"
+timeline([1])
+puts "Act 2 (+ 3)"
+timeline([2,3])
