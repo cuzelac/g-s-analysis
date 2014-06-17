@@ -5,7 +5,7 @@ require 'colorize'
 require 'pry'
 
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
-PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
+PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeomen", "gondoliers", "utopia-ltd", "grand-duke"]
 
 def timeline(print_acts=1..3,print_shows=[])
   shows = CANON.sort_by {|show| PUBLICATION_ORDER.find_index(show[:name])}
@@ -29,7 +29,7 @@ def timeline(print_acts=1..3,print_shows=[])
 
     STDOUT.print " #{show_name}:".black.on_white
     STDOUT.print "\t"
-#    STDOUT.print "\t" if ["mikado", "yeoman"].include?(show_name)
+#    STDOUT.print "\t" if ["mikado", "yeomen"].include?(show_name)
 
     act = 1
 

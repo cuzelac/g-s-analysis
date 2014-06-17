@@ -80,7 +80,7 @@ end
 #   scenes: [scene_record1, scene_record2]
 
 CANON = YAML.load(File.read("./g-s-breakdown.yaml"))
-PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeoman", "gondoliers", "utopia-ltd", "grand-duke"]
+PUBLICATION_ORDER = ["trial-by-jury", "sorcerer", "pinafore", "pirates", "patience", "iolanthe", "princess-ida", "mikado", "ruddigore", "yeomen", "gondoliers", "utopia-ltd", "grand-duke"]
 
 puts "-----"
 puts "SCENE COUNTS"
